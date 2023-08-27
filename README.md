@@ -19,3 +19,11 @@ osgEarth is Free Open Source Software distributed under the LGPL.
 
 Copyright 2022 [Pelican Mapping](http://web.pelicanmapping.com/).
 
+This repository of osgEarth has been modified to allow utilization / visualization of Open Geospatial Consortium (OGC) CDB.
+These CDB modifications are also dependant on the OpenSceneGraph version 3.7.0 repository provided on this site.(Note: At the time of this writting
+this is a modified version of the github osg master repository) The CDB capablity
+was developed by GAJ Geospatial Enterprises LLC and VATC and is distributed under the same LGPL license as osgEarth.
+
+Other modifications in this repository are for the gltf plugin. This repository utilizes externally built tinygltf, rapidjson, and lerc.
+The lerc plugin has been modified to use lerc-4.0.0.
+
