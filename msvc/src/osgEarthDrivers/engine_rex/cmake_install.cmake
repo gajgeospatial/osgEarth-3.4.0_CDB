@@ -1,0 +1,72 @@
+# Install script for directory: N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/OSGEARTH")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/osgPlugins-3.7.0" TYPE MODULE FILES "N:/Development/Dev_Base/osgearth-3.4.0/msvc/lib/Debug/osgdb_osgearth_engine_rexd.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/osgPlugins-3.7.0" TYPE MODULE FILES "N:/Development/Dev_Base/osgearth-3.4.0/msvc/lib/Release/osgdb_osgearth_engine_rex.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/osgPlugins-3.7.0" TYPE MODULE FILES "N:/Development/Dev_Base/osgearth-3.4.0/msvc/lib/MinSizeRel/osgdb_osgearth_engine_rexs.dll")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/osgPlugins-3.7.0" TYPE MODULE FILES "N:/Development/Dev_Base/osgearth-3.4.0/msvc/lib/RelWithDebInfo/osgdb_osgearth_engine_rex.dll")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/osgEarthDrivers/engine_rex" TYPE FILE FILES
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/Common"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/CreateTileImplementation"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/DrawState"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/DrawTileCommand"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/GeometryPool"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/Shaders"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/RexTerrainEngineNode"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/LayerDrawable"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/LoadTileData"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/RenderBindings"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/SurfaceNode"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/TerrainCuller"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/TerrainRenderData"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/TileDrawable"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/TileRenderModel"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/EngineContext"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/TileNode"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/TileNodeRegistry"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/Loader"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/Unloader"
+    "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex/SelectionInfo"
+    )
+endif()
+

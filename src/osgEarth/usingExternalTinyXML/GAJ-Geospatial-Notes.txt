@@ -1,0 +1,1 @@
+In order to actually link osgEarth to a different version of tinyxml than are represented by these files they must be moved out of the source path as their headers will be found instead of the external tinyxml headers.

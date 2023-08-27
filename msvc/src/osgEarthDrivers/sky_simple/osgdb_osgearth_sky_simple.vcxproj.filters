@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSkyExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSkyNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\BrunetonImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_atmosphere_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_texture_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_ogl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_atmosphere_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_texture_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_ogl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\eb_shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSkyShaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CMakeFiles\63ff660be5b4f55b3f187a681bfbbab6\AutoGenShaders.cpp.rule" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSkyOptions" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSkyNode" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSkyShaders" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\BrunetonImpl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Atmosphere.frag.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Atmosphere.vert.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Ground.ONeil.frag.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Ground.ONeil.vert.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Moon.frag.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Moon.vert.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Stars.frag.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Stars.vert.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Stars.GLES.frag.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Stars.GLES.vert.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Sun.frag.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\sky_simple\SimpleSky.Sun.vert.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC653981-9732-3023-BDC2-F39AED1E7DD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0D23D6E3-B3EB-3FED-BE78-3713EAF54401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{9080D588-A884-3258-82DF-5B4A8C4BAA32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01C6B824-E7F4-315D-8BD1-3111141B0539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{8F7553F1-69ED-3DB3-86F8-E6CA2B291B7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

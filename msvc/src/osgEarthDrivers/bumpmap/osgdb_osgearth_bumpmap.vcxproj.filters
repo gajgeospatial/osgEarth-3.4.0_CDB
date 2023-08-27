@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapTerrainEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapShaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CMakeFiles\8bc92127b8e976974de7c987b7cbecd2\AutoGenShaders.cpp.rule" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapExtension" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapOptions" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapTerrainEffect" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMapShaders" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMap.vert.view.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMap.frag.simple.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMap.frag.progressive.glsl" />
+    <None Include="..\..\..\..\src\osgEarthDrivers\bumpmap\BumpMap.frag.common.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC653981-9732-3023-BDC2-F39AED1E7DD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0D23D6E3-B3EB-3FED-BE78-3713EAF54401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{9080D588-A884-3258-82DF-5B4A8C4BAA32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01C6B824-E7F4-315D-8BD1-3111141B0539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{8F7553F1-69ED-3DB3-86F8-E6CA2B291B7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+<!-- 
+Cesium Ion Driver
+Access image layers from the Cesium Ion service, available at https://cesium.com
+-->
+
+<map name="Cesium Ion">
+ 
+    <CesiumIonImage name="cesiumion bluemarble">
+        <asset_id>3845</asset_id>
+        <token>YOUR-TOKEN_HERE</token>
+    </CesiumIonImage>
+
+</map>

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+N:/Development/Dev_Base/osgearth-3.4.0/CMakeModules/ConfigureShaders.cmake.in
+N:/Development/Dev_Base/osgearth-3.4.0/CMakeModules/ModuleInstall.cmake
+N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarth/BuildConfig.h.in
+N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarth/CMakeLists.txt

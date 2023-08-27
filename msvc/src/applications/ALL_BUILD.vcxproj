@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{361CC55A-25E5-38F7-9801-470AA3D3810D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\osgearth-3.4.0\src\applications\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/applications/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/applications/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/applications/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/applications/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/applications/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/applications/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/applications/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/applications/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\ZERO_CHECK.vcxproj">
+      <Project>{AF46AD19-6724-3532-B2FE-489CE19E1CFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_3pv\application_osgearth_3pv.vcxproj">
+      <Project>{4E9FC4B2-B556-366F-AA23-89A9A8B2BBD5}</Project>
+      <Name>application_osgearth_3pv</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_annotation\application_osgearth_annotation.vcxproj">
+      <Project>{817A025D-4E62-3AB3-AFF0-1991D5BB22E8}</Project>
+      <Name>application_osgearth_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_atlas\application_osgearth_atlas.vcxproj">
+      <Project>{A9D6440C-DC4E-36B1-8863-69A465699CDA}</Project>
+      <Name>application_osgearth_atlas</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_bakefeaturetiles\application_osgearth_bakefeaturetiles.vcxproj">
+      <Project>{E0B43F00-C977-3A58-9D20-83E1A3831FAB}</Project>
+      <Name>application_osgearth_bakefeaturetiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_bindless\application_osgearth_bindless.vcxproj">
+      <Project>{71EEAA97-A48A-301A-BC4B-BD665E9A5A53}</Project>
+      <Name>application_osgearth_bindless</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_boundarygen\application_osgearth_boundarygen.vcxproj">
+      <Project>{3A8FB46A-32AC-3FC1-A328-EC455E9648BF}</Project>
+      <Name>application_osgearth_boundarygen</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_city\application_osgearth_city.vcxproj">
+      <Project>{24893900-9CAC-3AEC-A8D1-5042F6624428}</Project>
+      <Name>application_osgearth_city</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_clamp\application_osgearth_clamp.vcxproj">
+      <Project>{23B6E3AA-56CB-3E97-96B2-4C8B3A8D56A4}</Project>
+      <Name>application_osgearth_clamp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_cluster\application_osgearth_cluster.vcxproj">
+      <Project>{A8C3C6F9-5696-3662-94DE-B4C2441FE510}</Project>
+      <Name>application_osgearth_cluster</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_conv\application_osgearth_conv.vcxproj">
+      <Project>{7C0F4F7D-2F31-3AA8-8DD2-F0FB75096439}</Project>
+      <Name>application_osgearth_conv</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_createtile\application_osgearth_createtile.vcxproj">
+      <Project>{A0B254B8-0BF7-3DF4-98E1-1DC63FC81BB3}</Project>
+      <Name>application_osgearth_createtile</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_drawables\application_osgearth_drawables.vcxproj">
+      <Project>{602EAD9A-928E-3BB6-B61F-E9CE5E440E00}</Project>
+      <Name>application_osgearth_drawables</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_eci\application_osgearth_eci.vcxproj">
+      <Project>{24BFFCD0-827B-3AB4-B616-569A544779FA}</Project>
+      <Name>application_osgearth_eci</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_ephemeris\application_osgearth_ephemeris.vcxproj">
+      <Project>{70688DFE-5275-3D24-A4EF-7F7906BCAB66}</Project>
+      <Name>application_osgearth_ephemeris</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_exportvegetation\application_osgearth_exportvegetation.vcxproj">
+      <Project>{6C34FDAE-4F04-3A4A-828F-FCB4FFDF837B}</Project>
+      <Name>application_osgearth_exportvegetation</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_featurefilter\application_osgearth_featurefilter.vcxproj">
+      <Project>{0FB8974A-66F7-3BB7-B414-FBF66BFBA74C}</Project>
+      <Name>application_osgearth_featurefilter</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_features\application_osgearth_features.vcxproj">
+      <Project>{EB7B7105-CC7E-384C-A175-757D6D2E2E04}</Project>
+      <Name>application_osgearth_features</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_graticule\application_osgearth_graticule.vcxproj">
+      <Project>{32A84C5D-105C-3723-A9F2-9463BC3B77A5}</Project>
+      <Name>application_osgearth_graticule</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_heatmap\application_osgearth_heatmap.vcxproj">
+      <Project>{724C01ED-2CE8-3703-9915-433CDEA5B7FF}</Project>
+      <Name>application_osgearth_heatmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_horizon\application_osgearth_horizon.vcxproj">
+      <Project>{8E722E86-272A-3FC8-9B37-AC2B1B49C5A4}</Project>
+      <Name>application_osgearth_horizon</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_imposterbaker\application_osgearth_imposterbaker.vcxproj">
+      <Project>{A9EBE437-EEFD-3932-838C-6F154FE7F376}</Project>
+      <Name>application_osgearth_imposterbaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_infinitescroll\application_osgearth_infinitescroll.vcxproj">
+      <Project>{F3BE201E-2A58-3CF4-8917-FFCF5A8041D1}</Project>
+      <Name>application_osgearth_infinitescroll</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_lights\application_osgearth_lights.vcxproj">
+      <Project>{194B55E0-5711-3FEB-BFF3-6D8973B71B9B}</Project>
+      <Name>application_osgearth_lights</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_los\application_osgearth_los.vcxproj">
+      <Project>{23721C3D-B9AA-3D04-B508-62DB86E2C976}</Project>
+      <Name>application_osgearth_los</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_magnify\application_osgearth_magnify.vcxproj">
+      <Project>{5DBCDC5A-30FF-3ECE-A545-28A7AD35EA06}</Project>
+      <Name>application_osgearth_magnify</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_manip\application_osgearth_manip.vcxproj">
+      <Project>{1DFAD65D-FA0E-32F5-8807-959844F2AE8F}</Project>
+      <Name>application_osgearth_manip</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_map\application_osgearth_map.vcxproj">
+      <Project>{88E967EB-5656-378B-87B1-6F87FCB96A47}</Project>
+      <Name>application_osgearth_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_minimap\application_osgearth_minimap.vcxproj">
+      <Project>{F33958C6-0F7F-3B8F-B376-641E83EA6866}</Project>
+      <Name>application_osgearth_minimap</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_mrt\application_osgearth_mrt.vcxproj">
+      <Project>{C21AA352-72AB-3D41-8771-38F6053BD445}</Project>
+      <Name>application_osgearth_mrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_occlusionculling\application_osgearth_occlusionculling.vcxproj">
+      <Project>{EAFE2C78-ABCE-3674-9736-94248FB046A3}</Project>
+      <Name>application_osgearth_occlusionculling</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_overlayviewer\application_osgearth_overlayviewer.vcxproj">
+      <Project>{DACEC25F-6AAF-3E9C-A961-6097F955844A}</Project>
+      <Name>application_osgearth_overlayviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_shadercomp\application_osgearth_shadercomp.vcxproj">
+      <Project>{4EF64B7F-AE66-3880-A536-13BD47B0CC6D}</Project>
+      <Name>application_osgearth_shadercomp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_skyview\application_osgearth_skyview.vcxproj">
+      <Project>{9511D2AA-352C-39A6-A859-34665E7C34C1}</Project>
+      <Name>application_osgearth_skyview</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_terrainprofile\application_osgearth_terrainprofile.vcxproj">
+      <Project>{388733A6-AD4A-34DB-AB13-2ABFC5AE235A}</Project>
+      <Name>application_osgearth_terrainprofile</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_tfs\application_osgearth_tfs.vcxproj">
+      <Project>{1581BAA8-2977-3E3E-8C31-1018CABF63C9}</Project>
+      <Name>application_osgearth_tfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_toc\application_osgearth_toc.vcxproj">
+      <Project>{8E4EF2EA-AEF8-3BBA-A867-4C361FE581B3}</Project>
+      <Name>application_osgearth_toc</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_tracks\application_osgearth_tracks.vcxproj">
+      <Project>{DDABE2D3-0242-30CE-98BC-9C920F2F2F80}</Project>
+      <Name>application_osgearth_tracks</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_transform\application_osgearth_transform.vcxproj">
+      <Project>{8CD231C8-3668-391F-AD30-5DA66471B23F}</Project>
+      <Name>application_osgearth_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_version\application_osgearth_version.vcxproj">
+      <Project>{528F894D-578C-35C6-A320-CBA07C0FCB60}</Project>
+      <Name>application_osgearth_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_video\application_osgearth_video.vcxproj">
+      <Project>{C4D1EC43-D7E8-348D-BCAA-E92244D6C716}</Project>
+      <Name>application_osgearth_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\applications\osgearth_viewer\application_osgearth_viewer.vcxproj">
+      <Project>{CEBF7820-7CB4-3C67-B6FC-E53B8E024622}</Project>
+      <Name>application_osgearth_viewer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

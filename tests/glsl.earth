@@ -1,0 +1,24 @@
+<!-- 
+osgEarth Sample - Per-layer GLSL shader injection
+-->
+
+<Map>    
+    <GDALImage name="world-tiff">
+        <url>../data/world.tif</url>
+        <shader>
+          <uniform name="gamma" value="2.2"/>
+          <![CDATA[
+            #version 330
+            #pragma vp_entryPoint gammaCorrection
+            #pragma vp_location   fragment
+            uniform float gamma;
+            uniform float osg_FrameTime;
+            void gammaCorrection(inout vec4 color)
+            {
+                if (int(osg_FrameTime) % 2 == 1)
+                    color.rgb = pow(color.rgb, vec3(1.0/gamma));
+            }            
+          ]]>
+        </shader>
+    </GDALImage>
+</Map>

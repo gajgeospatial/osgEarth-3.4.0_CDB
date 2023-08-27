@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\Biome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\BiomeLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\BiomeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\NoiseTextureFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\RoadSurfaceLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\TextureSplattingLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\TextureSplattingMaterials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\LifeMapLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\VegetationFeatureGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\osgEarthProcedural\VegetationLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\AutoGenShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\osgEarthProcedural\ProceduralShaders.cpp.in">
+      <Filter>Template Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\92377b1075bed908af4cdb82868edc6d\AutoGenShaders.cpp.rule" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\osgEarthProcedural\Biome" />
+    <None Include="..\..\..\src\osgEarthProcedural\BiomeLayer" />
+    <None Include="..\..\..\src\osgEarthProcedural\BiomeManager" />
+    <None Include="..\..\..\src\osgEarthProcedural\Export" />
+    <None Include="..\..\..\src\osgEarthProcedural\NoiseTextureFactory" />
+    <None Include="..\..\..\src\osgEarthProcedural\RoadSurfaceLayer" />
+    <None Include="..\..\..\src\osgEarthProcedural\ProceduralShaders" />
+    <None Include="..\..\..\src\osgEarthProcedural\TextureSplattingLayer" />
+    <None Include="..\..\..\src\osgEarthProcedural\TextureSplattingMaterials" />
+    <None Include="..\..\..\src\osgEarthProcedural\LifeMapLayer" />
+    <None Include="..\..\..\src\osgEarthProcedural\VegetationFeatureGenerator" />
+    <None Include="..\..\..\src\osgEarthProcedural\VegetationLayer" />
+    <None Include="..\..\..\src\osgEarthProcedural\Procedural.Vegetation.glsl" />
+    <None Include="..\..\..\src\osgEarthProcedural\Procedural.TextureSplatting.glsl" />
+    <None Include="..\..\..\src\osgEarthProcedural\Procedural.HexTiling.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC653981-9732-3023-BDC2-F39AED1E7DD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3060812C-04EA-3409-94C4-02847D66ACC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{DC5041BB-B6A8-333B-8BE4-17722D11C892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01C6B824-E7F4-315D-8BD1-3111141B0539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{8F7553F1-69ED-3DB3-86F8-E6CA2B291B7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{361CC55A-25E5-38F7-9801-470AA3D3810D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\osgearth-3.4.0\msvc\build_include;N:\Development\Dev_Base\osgearth-3.4.0\src;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\include;N:\Development\Dev_Base\OpenSceneGraph-3.7.0\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\osgearth-3.4.0\src\osgEarthDrivers\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/osgearth-3.4.0 -BN:/Development/Dev_Base/osgearth-3.4.0/msvc --check-stamp-file N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\ZERO_CHECK.vcxproj">
+      <Project>{AF46AD19-6724-3532-B2FE-489CE19E1CFD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\basis\osgdb_basis.vcxproj">
+      <Project>{99ABC910-324C-338C-8479-FDB1F4C2C84F}</Project>
+      <Name>osgdb_basis</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\earth\osgdb_earth.vcxproj">
+      <Project>{9DE840A5-90C2-3EAB-AA85-72F46E89C3C1}</Project>
+      <Name>osgdb_earth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\fastdxt\osgdb_fastdxt.vcxproj">
+      <Project>{F288A2E1-213F-37D1-9D0E-4B260563E493}</Project>
+      <Name>osgdb_fastdxt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\gltf\osgdb_gltf.vcxproj">
+      <Project>{3C746FA9-0521-3E5E-B81B-F95B418D24C9}</Project>
+      <Name>osgdb_gltf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\kml\osgdb_kml.vcxproj">
+      <Project>{B54EB331-706C-3938-BCCA-097BA5444C78}</Project>
+      <Name>osgdb_kml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\lerc\osgdb_lerc.vcxproj">
+      <Project>{AE1D0DD0-5F32-33C0-BE4F-E60AD301535A}</Project>
+      <Name>osgdb_lerc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\bumpmap\osgdb_osgearth_bumpmap.vcxproj">
+      <Project>{A2107095-7085-3A21-B028-69CFE2CF56DC}</Project>
+      <Name>osgdb_osgearth_bumpmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\cache_filesystem\osgdb_osgearth_cache_filesystem.vcxproj">
+      <Project>{7ECE009D-E4D9-3CB8-8FDB-7D30352E9197}</Project>
+      <Name>osgdb_osgearth_cache_filesystem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\colorramp\osgdb_osgearth_colorramp.vcxproj">
+      <Project>{048BE478-5C10-3643-A581-844F8D5F2370}</Project>
+      <Name>osgdb_osgearth_colorramp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\detail\osgdb_osgearth_detail.vcxproj">
+      <Project>{0F1E7665-1DC3-3206-9897-D0A50B02B924}</Project>
+      <Name>osgdb_osgearth_detail</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\engine_rex\osgdb_osgearth_engine_rex.vcxproj">
+      <Project>{4D0984B7-C1C4-34E0-86D4-CDD468540C29}</Project>
+      <Name>osgdb_osgearth_engine_rex</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\featurefilter_intersect\osgdb_osgearth_featurefilter_intersect.vcxproj">
+      <Project>{BC8E03B5-5A08-360F-9B2B-8BDFFC1A3B19}</Project>
+      <Name>osgdb_osgearth_featurefilter_intersect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\featurefilter_join\osgdb_osgearth_featurefilter_join.vcxproj">
+      <Project>{B03686F8-8B7B-3595-B7FF-C1D45C789B4A}</Project>
+      <Name>osgdb_osgearth_featurefilter_join</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\mapinspector\osgdb_osgearth_mapinspector.vcxproj">
+      <Project>{09AEFF7D-2303-3CF4-83E9-DD302F5F7AB3}</Project>
+      <Name>osgdb_osgearth_mapinspector</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\monitor\osgdb_osgearth_monitor.vcxproj">
+      <Project>{D49D9CAF-28D9-340A-8FE6-C16963EBCC1E}</Project>
+      <Name>osgdb_osgearth_monitor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\script_engine_duktape\osgdb_osgearth_scriptengine_javascript.vcxproj">
+      <Project>{6A3A8B43-0DC3-36DB-A098-134CF8D849BC}</Project>
+      <Name>osgdb_osgearth_scriptengine_javascript</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\sky_gl\osgdb_osgearth_sky_gl.vcxproj">
+      <Project>{4F8F7404-5EBF-37FD-864F-B2D886FAA7BE}</Project>
+      <Name>osgdb_osgearth_sky_gl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\sky_simple\osgdb_osgearth_sky_simple.vcxproj">
+      <Project>{0A61156D-2009-3F25-8D5E-A9027A6166F1}</Project>
+      <Name>osgdb_osgearth_sky_simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\terrainshader\osgdb_osgearth_terrainshader.vcxproj">
+      <Project>{0543BC7F-3715-37FE-95AB-028C80FD3293}</Project>
+      <Name>osgdb_osgearth_terrainshader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\vdatum_egm2008\osgdb_osgearth_vdatum_egm2008.vcxproj">
+      <Project>{4C543792-6740-3E54-97E7-E377F18998E9}</Project>
+      <Name>osgdb_osgearth_vdatum_egm2008</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\vdatum_egm84\osgdb_osgearth_vdatum_egm84.vcxproj">
+      <Project>{5839CEAA-8461-35C9-88C4-8E0044ABB539}</Project>
+      <Name>osgdb_osgearth_vdatum_egm84</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\vdatum_egm96\osgdb_osgearth_vdatum_egm96.vcxproj">
+      <Project>{8EFD56B8-082F-3B1E-B396-88CA791A14E7}</Project>
+      <Name>osgdb_osgearth_vdatum_egm96</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\viewpoints\osgdb_osgearth_viewpoints.vcxproj">
+      <Project>{4B4C6546-372B-342B-B8C7-781F7C80763C}</Project>
+      <Name>osgdb_osgearth_viewpoints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\osgearth-3.4.0\msvc\src\osgEarthDrivers\template\osgdb_template.vcxproj">
+      <Project>{0CB6FDC1-4E99-343C-9AFC-B4295FBF7286}</Project>
+      <Name>osgdb_template</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
