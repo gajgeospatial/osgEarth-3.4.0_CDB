@@ -1,10 +1,10 @@
 # configureshaders.cmake.in
 
-set(source_dir      "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/engine_rex")
-set(bin_dir         "N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/engine_rex")
+set(source_dir      "../../../../src/osgEarthDrivers/engine_rex")
+set(bin_dir         "./")
 set(glsl_files      "RexEngine.vert.glsl;RexEngine.elevation.glsl;RexEngine.gs.glsl;RexEngine.ImageLayer.glsl;RexEngine.NormalMap.glsl;RexEngine.Morphing.glsl;RexEngine.Tessellation.glsl;RexEngine.SDK.glsl;RexEngine.vert.GL4.glsl;RexEngine.ImageLayer.GL4.glsl;RexEngine.NormalMap.GL4.glsl;RexEngine.Tessellation.GL4.glsl;RexEngine.SDK.GL4.glsl;RexEngine.GL4.glsl")
 set(template_file   "Shaders.cpp.in")
-set(output_cpp_file "N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/engine_rex/AutoGenShaders.cpp")
+set(output_cpp_file "./AutoGenShaders.cpp")
 
 # modify the contents for inlining; replace input with output (var: file)
 # i.e., the file name (in the form ) gets replaced with the

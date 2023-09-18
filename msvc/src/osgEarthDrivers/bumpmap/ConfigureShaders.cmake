@@ -1,10 +1,10 @@
 # configureshaders.cmake.in
 
-set(source_dir      "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthDrivers/bumpmap")
-set(bin_dir         "N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/bumpmap")
+set(source_dir      "../../../../src/osgEarthDrivers/bumpmap")
+set(bin_dir         "./")
 set(glsl_files      "BumpMap.vert.view.glsl;BumpMap.frag.simple.glsl;BumpMap.frag.progressive.glsl;BumpMap.frag.common.glsl")
 set(template_file   "BumpMapShaders.cpp.in")
-set(output_cpp_file "N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthDrivers/bumpmap/AutoGenShaders.cpp")
+set(output_cpp_file "./AutoGenShaders.cpp")
 
 # modify the contents for inlining; replace input with output (var: file)
 # i.e., the file name (in the form ) gets replaced with the

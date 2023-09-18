@@ -1,10 +1,10 @@
 # configureshaders.cmake.in
 
-set(source_dir      "N:/Development/Dev_Base/osgearth-3.4.0/src/osgEarthProcedural")
-set(bin_dir         "N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthProcedural")
+set(source_dir      "../../../src/osgEarthProcedural")
+set(bin_dir         "./")
 set(glsl_files      "Procedural.Vegetation.glsl;Procedural.TextureSplatting.glsl;Procedural.HexTiling.glsl")
 set(template_file   "ProceduralShaders.cpp.in")
-set(output_cpp_file "N:/Development/Dev_Base/osgearth-3.4.0/msvc/src/osgEarthProcedural/AutoGenShaders.cpp")
+set(output_cpp_file "./AutoGenShaders.cpp")
 
 # modify the contents for inlining; replace input with output (var: file)
 # i.e., the file name (in the form ) gets replaced with the

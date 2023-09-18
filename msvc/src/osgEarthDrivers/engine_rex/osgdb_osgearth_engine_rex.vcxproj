@@ -671,18 +671,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </None>
     <ClInclude Include="..\..\..\..\src\osgEarthDrivers\engine_rex\Shaders.cpp.in" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\ZERO_CHECK.vcxproj">
-      <Project>{AF46AD19-6724-3532-B2FE-489CE19E1CFD}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="..\..\osgEarth\osgEarth.vcxproj">
-      <Project>{A2D824F6-59F1-311F-B6BB-D17AFA9161FE}</Project>
-      <Name>osgEarth</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
